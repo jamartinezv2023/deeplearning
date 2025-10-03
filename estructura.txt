@@ -1,0 +1,21 @@
+📦 futbol-deeplearning
+ ┣ 📂 data
+ ┃ ┗ results.csv                  # dataset descargado de Kaggle (sin subir a GitHub si pesa mucho)
+ ┣ 📂 notebooks
+ ┃ ┣ 01-exploracion-datos.ipynb   # análisis exploratorio (EDA)
+ ┃ ┣ 02-preprocesado.ipynb        # limpieza y transformación de datos
+ ┃ ┣ 03-arquitectura-base.ipynb   # baseline con modelo simple
+ ┃ ┣ 04-CNN.ipynb                 # modelos convolucionales (cap. 4)
+ ┃ ┣ 05-RNN-LSTM.ipynb            # modelos recurrentes (cap. 5)
+ ┃ ┣ 06-Transformers.ipynb        # experimentos avanzados (cap. 5.8)
+ ┃ ┗ 07-resultados-finales.ipynb  # consolidación y evaluación
+ ┣ 📂 reports
+ ┃ ┣ ENTREGA1.pdf                 # primer informe (máx. 3 páginas, IEEE)
+ ┃ ┗ INFORME_PROYECTO.pdf         # informe final (5-10 páginas)
+ ┣ 📂 src
+ ┃ ┗ utils.py                     # funciones auxiliares (preprocesado, métricas)
+ ┣ 📂 models
+ ┃ ┗ trained_model.h5             # modelo entrenado (si se guarda)
+ ┣ README.md                      # descripción del proyecto + link video YouTube
+ ┣ requirements.txt                # dependencias de Python (Colab friendly)
+ ┗ refs.bib                       # referencias bibliográficas (IEEE)

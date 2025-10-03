@@ -1,0 +1,70 @@
+Secuencia lógica recomendada
+
+ENTREGA1.PDF (Capítulo 4 - Contexto, Objetivos, Dataset, Métricas)
+
+Aquí no necesitamos aún programar.
+
+Solo debemos dejar claro qué dataset usamos, qué problema queremos resolver, cómo lo vamos a medir y cuál es la motivación del proyecto.
+
+Esto asegura que tu ENTREGA1 queda lista y valida lo que pide el capítulo 4.
+
+Notebook 01 - Exploración de datos (EDA)
+
+Lectura del dataset original (CSV).
+
+Estadísticas descriptivas (número de partidos, distribución de resultados).
+
+Gráficos: evolución histórica, goles promedio, frecuencia de equipos.
+
+Esto cubre la parte inicial de Capítulo 5 (Exploración).
+
+Notebook 02 - Preprocesamiento
+
+Codificación de equipos (one-hot o embeddings).
+
+Definición de variables estáticas y secuenciales (X_static, X_seq).
+
+Construcción de etiquetas y (0=local, 1=empate, 2=visitante).
+
+Generación de train/val/test.
+
+Con esto completas Capítulo 5.1 (Preparación de datos).
+
+Notebook 03 - Arquitectura baseline CNN/LSTM
+
+Primera red neuronal (simple, reproducible).
+
+Entrenamiento, validación, métricas.
+
+Esto entra en Capítulo 5.2 (Modelos iniciales).
+
+Notebook 04 - Arquitecturas mejoradas
+
+Probar variantes: CNN + LSTM, BiLSTM, Transformer.
+
+Comparación entre arquitecturas con métricas.
+
+Esto responde a Capítulo 5.3 (Modelos mejorados y evaluación comparativa).
+
+INFORME_PROYECTO.PDF
+
+Documento final de 5–10 páginas que recopila todo lo hecho en los notebooks y lo organiza en el formato que piden los capítulos 4 y 5.
+
+Video YouTube + README.md
+
+Mostrar ejecución, notebooks y conclusiones.
+
+Deja evidencia audiovisual.
+
+
+
+Propuesta concreta de acción
+
+Hoy: preparo para ti el borrador de ENTREGA1.PDF (listo para compilar en LaTeX o abrir en Word y exportar a PDF).
+
+Esto asegura que cumples ya con lo requerido en capítulo 4.
+
+Luego: pasamos a Notebook 01 (Exploración de datos.ipynb) en Google Colab, donde verás directamente estadísticas y visualizaciones del dataset.
+
+Con esto iniciamos el capítulo 5.
+
