@@ -1,20 +1,21 @@
+# Requerimientos para el proyecto de resultados de fútbol
 
----
-
-# 📄 Ejemplo de `requirements.txt`
-
-```txt
-# Librerías base científicas
+# Librerías científicas
 numpy>=1.24.0
 pandas>=2.0.0
 matplotlib>=3.7.0
 seaborn>=0.12.2
+
+# Machine learning (Capítulo 4)
 scikit-learn>=1.3.0
 
-# Deep Learning
+# Deep learning (Capítulo 5)
 tensorflow>=2.13.0
 keras>=2.13.0
 
-# Kaggle API (fijada para evitar errores en el futuro)
+# API de Kaggle
 kaggle==1.5.16
 
+# Otras que puedas necesitar
+requests>=2.31.0
+tqdm>=4.65.0

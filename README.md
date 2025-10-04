@@ -7,7 +7,7 @@ Este proyecto aplica técnicas de **aprendizaje profundo (CNN, RNN, Transformers
 - **notebooks/**  
   - `01-exploracion-datos.ipynb`: Análisis exploratorio inicial (EDA).  
   - `02-preprocesado.ipynb`: Limpieza, encoding, creación de features secuenciales y estáticos.  
-  - `03-arquitectura-base.ipynb`: Modelo baseline (logística o red simple).  
+  - `03_arquitectura_de_linea_de_base.ipynb`: Modelo baseline (logística o red simple).  
   - `04-CNN.ipynb`: Modelos convolucionales sobre secuencias.  
   - `05-RNN-LSTM.ipynb`: Redes recurrentes (LSTM/GRU, bidireccionales).  
   - `06-Transformers.ipynb`: Modelos avanzados basados en atención.  
